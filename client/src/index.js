@@ -19,9 +19,8 @@ const config = getConfig();
 
 const providerConfig = {
   
-  domain: config.domain,
-  clientId: config.clientId,
-  ...(config.audience ? { audience: config.audience } : null),
+  domain: 'mural-mates.auth0.com',
+  clientId: 'zbBokIpn2rN0U2gcQHPOfrLHgLmYirU1',
   redirectUri: window.location.origin,
   onRedirectCallback,
 };
